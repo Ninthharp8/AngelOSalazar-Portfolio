@@ -3,14 +3,43 @@ import { personalInfo } from "@/lib/data";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { useEffect } from "react";
 
 export default function GlassHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
+  const [isScrolling, setIsScrolling] = useState(true);
+  useEffect(() => {
+  let timeout: NodeJS.Timeout;
+  let lastScrollY = window.scrollY;
+
+  const handleScroll = () => {
+    // Mostrar header al detectar scroll
+    setIsScrolling(true);
+    clearTimeout(timeout);
+
+    // Ocultar después de 2 segundos sin scroll
+    timeout = setTimeout(() => {
+      setIsScrolling(false);
+    }, 2000);
+
+    lastScrollY = window.scrollY;
+  };
+
+  window.addEventListener("scroll", handleScroll);
+
+  return () => {
+    clearTimeout(timeout);
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
+
   return (
-    <header className=" fixed z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60">
+    <header
+        className={`fixed z-50 w-full backdrop-blur-md backdrop-filter bg-background/70 dark:bg-background/40 border-b border-border/40 supports-[backdrop-filter]:bg-background/60 transition-transform duration-500 ${
+          isScrolling ? "translate-y-0" : "-translate-y-full"}`}>
       <div className="container max-w-4xl mx-auto p-4 flex justify-between items-center">
         <motion.a
           className="flex items-center text-lg font-medium"
