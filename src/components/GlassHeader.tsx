@@ -23,7 +23,7 @@ export default function GlassHeader() {
     // Ocultar después de 2 segundos sin scroll
     timeout = setTimeout(() => {
       setIsScrolling(false);
-    }, 2000);
+    }, 3000);
 
     lastScrollY = window.scrollY;
   };
