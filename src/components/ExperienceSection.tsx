@@ -22,7 +22,7 @@ export default function ExperienceSection() {
             >
               💼
             </motion.span>{" "}
-            Work Experience
+            Experiencia laboral
           </h2>
         </MotionWrapper>
         <div className="mb-8">

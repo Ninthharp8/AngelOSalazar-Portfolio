@@ -7,7 +7,7 @@ export const personalInfo = {
 };
 
 export const workExperience = [
-  {
+  /*{
     company: "Chatbyte GmbH",
     location: "Remote",
     position: "Software Engineer",
@@ -21,40 +21,44 @@ export const workExperience = [
       "Integrated Text-to-Speech (TTS) services for enhanced user experiences, optimizing both frontend and backend systems.",
       "Collaborated with cross-functional teams to deliver high-quality features, actively reviewing pull requests to ensure code quality, adherence to standards, and efficient implementation.",
     ],
-  },
+  },*/
   {
-    company: "DevCrew",
-    location: "Coimbatore, India",
-    position: "Software Engineer",
-    period: "Mar 2023 - Mar 2024",
+    company: "Unidad de soporte y mantenimiento de equipo de cómputo",
+    location: "Mérida, Yucatán",
+    position: "Practicante",
+    period: "Sep 2023 - Ene 2024",
     achievements: [
-      "Developed responsive frontend components using React.js, enhancing user experience and app performance.",
-      "Optimized JavaScript solutions to improve load times and data-fetching efficiency.",
+      "Instalación y configuración de sistemas operativos (Windows, Linux, MacOS).",
+      "Automatización de tareas administrativas utilizando herramientas de Microsoft 365 y Google Workspace.",
+      "Documentación de procedimientos y actividades en operaciones de TI.",
+      "Propuesta e implementación de soluciones TIC para mejorar la eficiencia en la resolución de problemas del sistema.",
     ],
   },
   {
-    company: "Phoenitags",
-    location: "Coimbatore, India",
-    position: "Software Engineering Intern",
-    period: "Jan 2023 - Mar 2023",
+    company: "Laboratorio de Machine Learning y Visión por Computadora",
+    location: "Mérida, Yucatán",
+    position: "Servicio Social",
+    period: "Sep 2024 - Mar 2025",
     achievements: [
-      "Built interactive UIs with React.js, focusing on reusable components and performance optimization.",
-      "Implemented JavaScript-based features like user authentication and real-time updates.",
+      "Contribución al proyecto de inteligencia artificial en el sector salud ofrecido por la Uady, enfocado en mejorar la detección del parásito del chagas mediante redes neuronales de aprendizaje profundo y técnicas de aprendizaje supervisado.",
+      "Entrenamiento y optimización de modelos YOLO en Python para la detección del parásito de Chagas.",
+      "Generación y almacenamiento de estadísticas de entrenamiento y validación del modelo en formato CSV para su posterior análisis.",
+      "Aplicación de técnicas avanzadas de ciencia de datos para interpretar los resultados, identificar patrones y evaluar el desempeño de cada modelo.",
+      "Creación de visualizaciones y gráficos para representar la evolución de las métricas clave y determinar el modelo más eficiente en la detección del parásito."
     ],
   },
 ];
 
 export const education = [
   {
-    institution: "Sri Krishna College of Engineering and Technology",
-    location: "Coimbatore, India",
-    degree: "B Tech Information Technology",
-    period: "Jun 2021 - Jun 2025",
+    institution: "Universidad Autónoma de Yucatán",
+    location: "Mérida, Yucatán",
+    degree: "Licenciatura en ciencias de la computación",
+    period: "Sep 2020 - May 2025",
     achievements: [
-      "President of the Department of Information Technology",
-      "G20 student delegate",
-      "Organized multiple technical workshops and events",
-      "Represented my college in multiple national and international hackathons and won.",
+      "Formación en fundamentos de programación, estructuras de datos, bases de datos, redes y sistemas operativos.",
+      "Aplicación práctica de conocimientos mediante proyectos desarrollados en C++, Python (incluyendo aprendizaje automático) y tecnologías web.",
+      "Uso de herramientas como Git, Visual Studio Code, Jupyter Notebook, MySQL y MongoDB durante prácticas y trabajos académicos."
     ],
   },
 ];
@@ -93,7 +97,7 @@ export const skills = {
 export const projects = [
   {
     title: "Net Zero Carbon Emissions",
-    github: "https://github.com/rishikesh2003/Prodigi",
+    github: "https://github.com/NinthHarp8",
     description: [
       "WiFi-RTT: Developed indoor occupancy tracking for energy optimization.",
       "IoT Solutions: Implemented smart monitoring for energy efficiency and food waste reduction.",
@@ -104,7 +108,7 @@ export const projects = [
   },
   {
     title: "Mental Aarog",
-    github: "https://github.com/rishikesh2003/mental-aarog",
+    github: "https://github.com/NinthHarp8",
     description: [
       "A holistic mental health app leveraging AI and blockchain for early detection and personalized solutions for depression.",
       "Features include social media analysis (ML-based sentiment tracking), PHQ-9 assessments, smartwatch integration for sleep and activity data, guided meditation, and smart suggestions for food, travel, music, and movies.",
@@ -116,53 +120,60 @@ export const projects = [
 ];
 
 export const awards = [
-  {
-    name: "IEEE YESIST12 Hackathon",
-    issuer: "IEEE",
-    date: "Sep 2022",
-    type: "International",
-    position: "Second Place",
-  },
-  {
-    name: "Prodigi Cognizant Hackathon",
-    issuer: "Cognizant",
-    date: "Feb 2023",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Cisco Thingqbator Hackathon",
-    issuer: "Cisco",
-    date: "Jan 2023",
-    type: "National",
-    position: "First Runner-up",
-  },
-  {
-    name: "Innovators Day",
-    issuer: "Sri Manakula Vinayagar Engineering College, Pondicherry",
-    date: "Sep 2022",
-    type: "National",
-    position: "First Prize",
-  },
-  {
-    name: "KG Hackfest'22",
-    issuer: "KGiSL Institute of Technology, Coimbatore",
-    date: "Sep 2022",
-    type: "National",
-    position: "Second Prize",
-  },
-  {
-    name: "Innohacks'22",
-    issuer: "Innogeeks, KIET Group of Institutions, New Delhi",
-    date: "May 2022",
-    type: "National",
-    position: "Second Runner-up",
-  },
-  {
-    name: "Hack @ SKCET",
-    issuer: "Hackclub SKCET, SKCET, Coimbatore",
-    date: "Feb 2022",
-    type: "National",
-    position: "Most Impactful Hack",
-  },
+{
+  name: "Data Visualization with Python",
+  issuer: "Coursera",
+  date: "Dic 2023",
+  type: "Certificación",
+  position: "Completado"
+},
+{
+  name: "Using Python to Access Web Data",
+  issuer: "Coursera",
+  date: "Diciembre 2023",
+  type: "Certificación",
+  position: "Completado"
+},
+{
+  name: "Introduction to Python Programming",
+  issuer: "Coursera",
+  date: "Diciembre 2023",
+  type: "Certificación",
+  position: "Completado"
+},
+{
+  name: "Introduction to Linear Algebra and Python",
+  issuer: "Coursera",
+  date: "Noviembre 2023",
+  type: "Certificación",
+  position: "Completado"
+},
+{
+  name: " Cisco Networking Academy: Redes de computadora",
+  issuer:"Cisco",
+  date: " Ene 2024 - May 2024",
+  type: "Curso",
+  position: "Completado"
+},
+{
+  name: " Cisco Networking Academy: Fundamentos de Ciberseguridad",
+  issuer:"Cisco",
+  date: " Ene 2024 - May 2024",
+  type: "Curso",
+  position: "Completado"
+},
+{
+  name: " AWS Academy: Cloud Foundations",
+  issuer:"AWS",
+  date: " Ago 2024 - Dic 2024",
+  type: "Curso",
+  position: "Completado"
+},
+{
+  name: " Desarrollo Web Ágil de API y SPA",
+  issuer:"Uady",
+  date: " Ago 2024 - Dic 2024",
+  type: "Curso",
+  position: "Completado"
+},
 ];

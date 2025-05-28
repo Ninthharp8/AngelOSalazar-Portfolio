@@ -14,7 +14,7 @@ export default function AwardsSection() {
       <div className="container max-w-4xl mx-auto px-6 md:px-4">
         <MotionWrapper>
           <h2 className="text-2xl font-bold mb-8 text-center md:text-left">
-            🏆 Awards
+            🏆 Cursos & Certificados
           </h2>
         </MotionWrapper>
 
@@ -51,7 +51,7 @@ export default function AwardsSection() {
                     className="text-xs text-muted-foreground/80 bg-background/50 px-2 py-1 rounded-md w-fit"
                     whileHover={{ scale: 1.05 }}
                   >
-                    {award.type === "International" ? "🌎 " : "🇮🇳 "}
+                    {award.type === "International" ? "🌎 " : " "}
                     {award.type}
                   </motion.span>
                 </div>
