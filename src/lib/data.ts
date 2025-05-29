@@ -67,31 +67,65 @@ export const skills = {
     "TypeScript",
     "JavaScript",
     "Python",
-    "C++",
+    "C/C++",
     "Java",
-    "Solidity",
   ],
   frontendDevelopment: [
     "Nextjs",
     "Reactjs",
-    "React Native",
-    "Shadcn UI",
     "Tailwind CSS",
+    "Angular",
+    "bootstrap 5",
     "HTML",
     "CSS",
   ],
-  backendDevelopment: ["Nodejs", "Expressjs"],
-  databaseAndStorage: ["PostgreSQL", "Drizzle (ORM)"],
-  cloudAndDevOps: ["AWS"],
-  toolsAndServices: [
-    "Clerk (Auth)",
-    "Sanity (CMS)",
-    "Tinybird (analytics)",
-    "Zod",
-    "Sentry",
-    "Mixpanel",
-    "Trigger.dev",
+  backendDevelopment: [
+    "Nodejs", 
+    "Expressjs",
+    "Arquitectura MVC"
   ],
+  databaseAndStorage: [
+    "PostgreSQL",
+    "MongoDB",
+    "MySQL"
+  ],
+  cloudAndDevOps: [
+    "AWS",
+    "Microsoft 365",
+    "Google WorkSpace",
+    "Git",
+    "GitHub",
+  ],
+  toolsAndServices: [
+    "Visual Studio Code",
+    "Postman",
+    "Microsoft Word",
+    "Microsoft Excel",
+    "Google Docs",
+    "Google Sheets",
+    "Google Colab",
+    "JupyterNotebook",
+  ],
+  aiAndMachineLearning: [
+  "Aprendizaje Supervisado",
+  "Aprendizaje no supervisado",
+  "Entrenamiento, Validación y Pruebas",
+  "TensorFlow",
+  "scikit-learn",
+  "Pandas",
+  "OpenCV",
+  "Keras",
+  "YOLO",
+  "Pytorch",
+],
+operatingSystems:[
+  "Windows",
+  "Linux",
+],
+lenguajes:[
+  "Ingles (B1)",
+  "Español Nativo",
+]
 };
 
 export const projects = [
