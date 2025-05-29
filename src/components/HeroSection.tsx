@@ -27,7 +27,7 @@ export default function HeroSection() {
   };
 
   return (
-    <section className="py-16 md:py-24 relative overflow-hidden">
+    <section className="scroll-mt-10 py-16 md:py-24 relative overflow-hidden">
       <div className="container max-w-4xl mx-auto px-6 md:px-4 relative z-10">
         <motion.div
           className="flex flex-col md:flex-row md:items-center justify-between mb-8"
@@ -119,8 +119,8 @@ export default function HeroSection() {
         </motion.div>
 
         <MotionWrapper>
-          <div className="bg-gradient-to-r from-blue-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
+          <div className="bg-gradient-to-r from-blue-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter py-1 px-4 rounded-lg border border-blue-500/20 dark:border-blue-500/10 shadow-sm">
+            <p className="text-muted-foreground pl-4 py-2 mb-4 relative ">
               <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-blue-500 to-pink-500 rounded-full"></span>
               🚀 Profesional en Ciencias de la Computación en etapa de titulación, con experiencia en programación, administración de 
               sistemas y computación en la nube. Poseo un conjunto de habilidades versátil que abarca desde la automatización de procesos 
